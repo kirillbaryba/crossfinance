@@ -1,0 +1,124 @@
+/* 
+	Responsive Table
+	*/
+
+.reports {
+    hr {
+        margin: 10px auto 0;
+    }
+    .table-reports {
+        font-weight: 300;
+        & thead > tr,
+        & thead > tr > th {
+            color: $brand-darken;
+            line-height: 2;
+        }
+        & tbody > tr,
+        & tbody > tr > td {
+            color: #e1eef9;
+        }
+    }
+}
+
+//mobile font color thead
+.well {
+    .table-striped>tbody>tr:nth-of-type(odd) {
+        background-color: #324758;
+    }
+    .table-striped>tbody>tr:nth-of-type(odd) .tablesaw-cell-label {
+        color: #4b789b;
+    }
+    .table-striped>tbody>tr:nth-of-type(even) .tablesaw-cell-label {
+        color: #4b789b;
+    }
+}
+
+//no well bg
+//table striped no count thead
+.table-striped {
+    & thead > tr,
+    & thead > tr > th {
+        font-weight: 300;
+        color: $brand-darken;
+        line-height: 2;
+    }
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #364d5f;
+}
+
+//table striped count whith thead
+.table-th-striped {
+    & thead > tr,
+    & thead > tr > th {
+        font-weight: 300;
+        color: $brand-darken;
+        //line-height: 2;
+    }
+}
+
+//table cheked
+.table-cheked {
+    & thead > tr,
+    & thead > tr > th {
+        font-weight: 300;
+        color: $brand-darken;
+        //line-height: 2;
+    }
+     & thead > tr,
+    & thead > tr > th,
+    & tbody > tr,
+    & tbody > tr > td {
+        padding: 8px 15px;
+    }
+    & .radio,
+    & .checkbox {
+        margin: 0;
+    }
+    & .checkbox-info {
+        label:after, label:before{
+          background-color: #364d5f;   
+        }
+    }
+}
+
+.table-th-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #364d5f;
+}
+
+// loyalty bonuses table
+.table-bonuses {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 0;
+    & thead > tr,
+    & thead > tr > th,
+    & tbody > tr,
+    & tbody > tr > td {
+        padding: 5px 15px;
+    }
+}
+
+//table-ip-adrress
+.table-ip-address {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0;
+    .ip-date-tx {
+        color: #678293;
+    }
+    & thead > tr,
+    & thead > tr > th,
+    & tbody > tr,
+    & tbody > tr > td {
+        padding: 5px 15px;
+    }
+}
+
+//loyalty bonuses tr bg
+.well {
+    .table-th-striped>tbody>tr:nth-of-type(even) {
+        background-color: #324758;
+    }
+}
