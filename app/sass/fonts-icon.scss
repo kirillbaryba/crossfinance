@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'cross-finance';
-    src:    url('/dist/fonts/cross-finance.eot?wrwt70');
-    src:    url('/dist/fonts/cross-finance.eot?wrwt70#iefix') format('embedded-opentype'),
-        url('/dist/fonts/cross-finance.ttf?wrwt70') format('truetype'),
-        url('/dist/fonts/cross-finance.woff?wrwt70') format('woff'),
-        url('/dist/fonts/cross-finance.svg?wrwt70#cross-finance') format('svg');
+    src:    url('../fonts/cross-finance.eot?wrwt70');
+    src:    url('../fonts/cross-finance.eot?wrwt70#iefix') format('embedded-opentype'),
+        url('../fonts/cross-finance.ttf?wrwt70') format('truetype'),
+        url('../fonts/cross-finance.woff?wrwt70') format('woff'),
+        url('../fonts/cross-finance.svg?wrwt70#cross-finance') format('svg');
     font-weight: normal;
     font-style: normal;
 }
